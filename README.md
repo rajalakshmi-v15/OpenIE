@@ -15,20 +15,28 @@ This starts the OpenNLP server at port 9000
 Clone the github repository and navigate into it. Please follow the below-mentioned steps:
 
 1. Make a python virtual environment with the following command:
+
 `
 $ virtualenv py_openie
 `
+
 2. Activate the virtual environment
+
 `
 $ source py_openie/bin/activate
 `
+
 3. Install requirements in virtual environment
+
 `
 (py_openie)$ pip install -r path/to/requirements.txt
 `
+
 **requirements.txt** is in the repository.
 4. Run jupyter notebook
+
 `
 (py_openie)$ jupyter notebook
 `
+
 
