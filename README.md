@@ -3,9 +3,11 @@
 ## Running the OpenNPL Java server
 
 1. Go to the folder containg the OpenNLP tools and run the command:
+
 `
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 `
+
 This starts the OpenNLP server at port 9000
 
 ## Setting up python environment
